@@ -1,4 +1,4 @@
-# la.html
+# la.html（Day1）
 <!DOCTYPE html>(定义文本类型）
 <html lang="en">（别人以什么语言去理解我写的）
 <head>
@@ -26,3 +26,31 @@
 </body>
 </html>
 (以上是我从vscode复制过来的一个模板，并对其中一些元素做出自己理解的解释)
+#(Day2)
+一、
+<script>            
+      1.console.log(1*2*3*4*5*6*7*8*9*10*11*12*13*14*15*16*17*18*19*20*21*22*23*24*25*26*27*28*29*30*31*32*33*34*35*36*37*38*39*40*41*42*43*44*45*46*47*48*49*50*51*52*53*54*55*56*57*58*59*60*61*62*63*64*65*66)
+    
+
+2.var row=5; // row表示总行数
+    for(var r=row;r>0;r--){  //外层循环控制行数 r表示每次变化的行数
+  var triangle="";   //triangle表示最后的三角形
+    for(var space=r;space<row;space++){ //此循环控制空格数 space表示空格数
+      triangle+=" ";
+   }
+    for(var $=1;$<=2*r-1;$++){ //此循环控制 $ 数
+      triangle+="$";
+   }
+console.log(triangle);
+    
+
+3.function factorialize(num){
+    return num >1 ? num * factorialize (num-1):1;
+}
+console.log(factorialize(66));
+
+二、
+</script>
+var style = document.createElement('style'); 
+ style.type = 'text/css'; 
+</script>
